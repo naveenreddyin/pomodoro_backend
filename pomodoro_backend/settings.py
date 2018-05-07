@@ -149,3 +149,6 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
     'Cache-Control',
 )
+
+# should not be like this but for a demo its ok
+ALLOWED_HOSTS = ['*']
